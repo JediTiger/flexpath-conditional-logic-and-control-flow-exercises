@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_01();
+  exercise_03();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -39,9 +39,16 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let var1 = 5;
+  let var2 = exercise_14;
+  let bool1 = var1 > var2;
+  ltc(bool1);
 
   // CODE IN THE OPEN LINES ABOVE
+}
+
+function ltc(x) {
+  console.log(x);
 }
 
 function exercise_02() {
@@ -59,7 +66,10 @@ function exercise_02() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let var1 = 6;
+  let var2 = "nine";
+  let bool1 = var1 === var2;
+  ltc(bool1);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -85,8 +95,12 @@ function exercise_03() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
-
+  let var1 = 5;
+  if(var1 % 2 ===0) {
+    ltc(true);
+  } else {
+    ltc(false);
+  }
   // CODE IN THE OPEN LINES ABOVE
 }
 
