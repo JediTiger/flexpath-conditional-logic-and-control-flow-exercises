@@ -88,7 +88,7 @@ function exercise_03() {
        If it is even, log "Even" to the console.
        If it is odd, log "Odd" to the console.
     
-    3. Modify your initial variable code to assign a different number, 
+    3. Modify your initial variable code to assign a different number, ls
        this time the opposite type (even or odd) than it was at first. 
        Run your code again and see how the result changes.
 
